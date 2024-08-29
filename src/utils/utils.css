@@ -1,0 +1,26 @@
+.input-field{
+    font-size: 14px;
+    color: var(--grey-color, #5E6D77);
+    font-weight: 400;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+   
+}
+
+.input-field input {
+    padding: 8px 0px;
+    outline: none;
+    border: 0px solid;
+    color: red;
+}
+
+.input-field input:focus{
+    outline: none;
+}
+
+
+.input-field input::placeholder{
+    color: var(--main-color);
+}

@@ -1,0 +1,30 @@
+.stt-mailchimp-form{
+    position: relative;
+    width: 100%;
+}
+
+
+.stt-mailchimp-form input[type=email] {
+    border: 1px solid #DEDEDE;
+    border-radius: 80px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83929D;
+    padding:17px 0px 17px 20px ;
+    width: calc(100% - 20px);
+}
+
+.stt-mailchimp-form input[type=submit] {
+    background: var(--main-color, #3B71FE);
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 15px 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-family:'Montserrat';
+}

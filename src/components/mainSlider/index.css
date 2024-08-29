@@ -1,8 +1,78 @@
-.mainSlider{
+/* .mainSlider{
     background-image: url("https://skyholidays.pk/wp-content/uploads/2022/12/Slider-22.png");
-    background-size: contain; /* Make the image fit within the div */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    width: auto; /* Allow width to be dynamic */
-    height: 600px; /* Allow height to be dynamic */
+    background-size: contain;
+    background-repeat: no-repeat; 
+    width: auto;
+    height: 600px; 
     position: relative;
-}
+} */
+
+
+
+
+.slider {
+    position: relative;
+    height: auto; /* Set a fixed height for the slider */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide overflow if images are larger than the container */
+    padding-bottom: 50px;
+  }
+  
+  .mainSlider {
+    background-image: url("https://skyholidays.pk/wp-content/uploads/2022/12/Slider-22.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%; /* Make the slider container full width */
+    height: auto; /* Fixed height for the slider */
+    position: relative;
+    background-position: center; /* Center the background image */
+  }
+  
+  .image {
+    max-width: 100%;
+    max-height: auto; /* Set the maximum height of the image */
+    object-fit: contain; /* Ensures the image is contained within the given space */
+    border-radius: 10px;
+  }
+  
+  .left-arrow, .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 100%;
+    font-size: 16px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+    height: auto; /* Ensure each slide has the same height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    width: 100%;
+  }
+  

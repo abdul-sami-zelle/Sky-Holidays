@@ -1,0 +1,23 @@
+.recommendationSection{
+    padding: 70px 0px 40px 0px;
+}
+
+
+
+.recommendationSection .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .recommendationSection .cardContainer {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns per row on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .recommendationSection .cardContainer {
+        grid-template-columns: 1fr; /* 1 column per row on very small screens */
+    }
+}

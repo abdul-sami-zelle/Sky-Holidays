@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-family: 'Montserrat';
 }
 
 
@@ -35,7 +36,7 @@
     font-size: 14px;
     line-height: 22px;
     text-decoration: none;
-  
+    font-family: 'Montserrat';
     display: flex; /* Enable Flexbox */
     align-items: center; /* Center items vertically */
     gap: 8px; /* Optional: Adds space between the image and text */
@@ -46,6 +47,7 @@
     width: auto;
 }
 
+
 .subHeader{
     width: 100%;
     display: flex;
@@ -53,7 +55,7 @@
     justify-content: space-between;
     background-color: #fff;
     box-sizing: border-box;
- 
+    font-family: 'Montserrat';
     padding: 0 30px;
 }
 
@@ -81,6 +83,8 @@
     line-height: 20px;
     text-decoration: none;
     color: var(--secondary-color);
+    font-family: 'Montserrat';
+
 }
 
 .actionSide > ul{
@@ -125,5 +129,6 @@
     color: #fff;
     padding: 12px 22px;
     transition: all 0.3s;
+    font-family: 'Montserrat';
 }
 

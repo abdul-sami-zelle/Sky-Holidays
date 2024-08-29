@@ -1,10 +1,12 @@
 .mainSearchBar{
     position: absolute;
-    width: 75%; /* Width of the element */
-    margin: 0; /* Remove any margin */
-    bottom: 110px; /* Distance from the bottom of the containing element */
-    left: 50%; /* Position from the left edge of the container */
-    transform: translateX(-50%); /* Adjust the position to center the element */
+    width: 75%; 
+    margin: 0; 
+    bottom: 15px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 999999;
+    
 }
 
 .selectors_section > button{
@@ -16,20 +18,82 @@
     padding: 7px 30px;
     font-size: 14px;
     margin-right: 1px;
+    font-family: 'Montserrat';
+    border: 0px;
+}
+
+.selectors_section > button.active{
+    background-color: var(--secondary-color);
 }
 
 .search_bar_main{
     width: 100%;
-    height: 80px;
+    /* height: 80px; */
     background-color: white;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     display: flex;
+    padding: 20px 0;
 }
 
-.search_bar_main > div{
 
+.search_bar_main > .search_bar_main_1 {
     width: 25%;
-    background-color: red;
     height: 100%;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search_bar_main_1 img{
+    height: 25px;
+    width: auto;
+    padding-right: 15px;
+}
+
+/* Add right border to all but the last child */
+.search_bar_main > .search_bar_main_1:not(:last-child) {
+    border-right: 1px solid #d7dce3;
+}
+
+
+.search_bar_main_1 label{
+    font-size: 14px;
+    color: var(--grey-color, #5E6D77);
+    font-weight: 400;
+    margin-bottom: 0;
+    display: block;
+    font-family: 'Montserrat';
+}
+
+.dateRange , .totalGuests {
+    font-size: 14px;
+    color: var(--main-color);
+    font-family: 'Montserrat';
+    padding: 8px 0px;
+}
+
+.advance button{
+    border-radius: 8px;
+    margin-left: 7px;
+    background-color: var(--main-color);
+    color: #fff;
+    border-color: var(--main-color);
+    padding: 15px 35px;
+    font-size: 14px;
+    margin-right: 1px;
+    font-family: 'Montserrat';
+}
+
+.advance{
+    justify-content: space-between !important;
+}
+
+.selectors_section > button:focus {
+    outline: none;
+  }
+
+.from_to{
+    width: 50% !important;
 }

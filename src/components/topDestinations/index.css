@@ -1,0 +1,16 @@
+.topDestinationSlider{
+    padding: 70px 0px 40px 0px;
+    position: relative;
+}
+.appointmentDates{
+    display: -webkit-box;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    user-select: none;
+    padding: 0 5px;
+  }
+
+  .appointmentDates::-webkit-scrollbar {
+   display: none;
+  }

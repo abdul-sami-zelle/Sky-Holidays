@@ -5,10 +5,12 @@ import cart from "../../assets/cart.png"
 import user from "../../assets/user.png"
 import call from "../../assets/call.png"
 import mail from "../../assets/mail.png"
-import fb_small from "../../assets/fb_small.png";
-import insta_small from "../../assets/insta_small.png";
-import twitter_small from "../../assets/twitter_small.png";
+import facebook from "../../assets/facebook.png";
+import instagram from "../../assets/instagram.png";
+import yout from "../../assets/yout.png";
 import youtube_small from "../../assets/youtube_small.png";
+
+
 
 export default function HeaderBar() {
     return (
@@ -34,13 +36,13 @@ export default function HeaderBar() {
             <div className="leftContent">
                 <ul>
                     <li>
-                        <a href=""> <img src="" alt="" /></a>
+                        <a href=""> <img src={facebook} alt="" /></a>
                     </li>
                     <li>
-                        <a href=""> <img src="" alt="" /></a>
+                        <a href=""> <img src={instagram} alt="" /></a>
                     </li>
                     <li>
-                        <a href=""> <img src="" alt="" /></a>
+                        <a href=""> <img src={yout} alt="" /></a>
                     </li>
                     <li>
                         <a href=""> <img src="" alt="" /></a>
@@ -60,16 +62,16 @@ export default function HeaderBar() {
                             <a href="">Home</a>
                         </li>
                         <li>
-                            <a href="">Hotels</a>
+                            <a href="">Visa</a>
+                        </li>
+                        <li>
+                            <a href="">Umra</a>
                         </li>
                         <li>
                             <a href="">Tours</a>
                         </li>
                         <li>
                             <a href="">Excursions</a>
-                        </li>
-                        <li>
-                            <a href="">Car</a>
                         </li>
                     </ul>
                 </nav>
