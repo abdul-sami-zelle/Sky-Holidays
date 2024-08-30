@@ -80,4 +80,86 @@ export const destinations = [
         price: "343.00$"
       },
   ]
+
+  
+
+
+  export const visaCountries = [
+    {
+        name:"Morocco",
+        image:"https://ajexpress.com.pk/wp-content/uploads/2023/01/Siem-Reap-Cambodia-Timbuktu-h1.jpg"
+    },
+    {
+        name:"Veitnam",
+        image:"https://ajexpress.com.pk/wp-content/uploads/2023/01/jpg.webp"
+    },
+    {
+        name:"Combodia",
+        image:"https://ajexpress.com.pk/wp-content/uploads/2023/01/Siem-Reap-Cambodia-Timbuktu-h1.jpg"
+    },
+    {
+        name:"Qatar",
+        image:"https://ajexpress.com.pk/wp-content/uploads/2023/01/Siem-Reap-Cambodia-Timbuktu-h1.jpg"
+    },
+    {
+        name:"Bahrain",
+        image:"https://ajexpress.com.pk/wp-content/uploads/2023/01/jpg.webp"
+    },
+    {
+        name:"Oman",
+        image:"https://ajexpress.com.pk/wp-content/uploads/2023/01/Siem-Reap-Cambodia-Timbuktu-h1.jpg"
+    },
+    {
+        name:"Malaysia",
+        image:"https://ajexpress.com.pk/wp-content/uploads/2023/01/jpg.webp"
+    },
+    {
+        name:"United Kingdom - Aed950",
+        image:"https://ajexpress.com.pk/wp-content/uploads/2023/01/Siem-Reap-Cambodia-Timbuktu-h1.jpg"
+    },
+    {
+        name:"United Kingdom - Aed2400",
+        image:"https://ajexpress.com.pk/wp-content/uploads/2023/01/jpg.webp"
+    },
+    {
+        name:"Saudi - Aed450",
+        image:"https://ajexpress.com.pk/wp-content/uploads/2023/01/Siem-Reap-Cambodia-Timbuktu-h1.jpg"
+    },
+  ]
+
+
+
+  export const images = [
+    "https://skyholidays.pk/wp-content/uploads/2022/12/Slider-22.png",
+    "https://skyholidays.pk/wp-content/uploads/2022/12/Slider-33.png",
+    "https://skyholidays.pk/wp-content/uploads/2022/12/Slider-11.png",
+  ];
+  
+  
+  export const SliderData2 = [
+    {
+      image:"https://skyholidays.pk/wp-content/uploads/2022/12/Slider-22.png"
+    },
+    {
+      image:"https://skyholidays.pk/wp-content/uploads/2022/12/Slider-33.png"
+    },
+    {
+      image:"https://skyholidays.pk/wp-content/uploads/2022/12/Slider-11.png"
+    },
+    
+  ];
+
+
+
+ export const formConfigurations = {
+    abc: [
+      { name: 'name', type: 'text', label: 'Name:', required: true },
+      { name: 'email', type: 'email', label: 'Email:', required: true }
+    ],
+    efg: [
+      { name: 'name', type: 'text', label: 'Name:', required: true },
+      { name: 'email', type: 'email', label: 'Email:', required: true },
+      { name: 'age', type: 'number', label: 'Age:', required: true }
+    ]
+  };
   

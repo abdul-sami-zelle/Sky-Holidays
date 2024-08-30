@@ -1,0 +1,26 @@
+.mainVisaComponent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .columnMVC {
+    flex: 1;
+    max-width: 50%;
+    box-sizing: border-box;
+  }
+  
+  .columnMVC:nth-child(1) {
+    padding-right: 10px; /* Optional: adjust spacing */
+  }
+  
+  .columnMVC:nth-child(2) {
+    padding-left: 10px; /* Optional: adjust spacing */
+  }
+  
+  @media (max-width: 900px) {
+    .columnMVC {
+      max-width: 100%;
+      padding: 0; /* Remove padding on smaller screens if needed */
+    }
+  }
+  

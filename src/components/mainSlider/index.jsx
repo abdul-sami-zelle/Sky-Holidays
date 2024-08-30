@@ -20,7 +20,7 @@ import MainSearchBar from "../../utils/mainSearchBar";
 import arrowLeft from "../../assets/arrow left.png"
 import arrowRight from "../../assets/arrow right.png"
 
-const MainSlider = ({ slides }) => {
+const MainSlider = ({ slides, showSearchBar }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -57,7 +57,7 @@ const MainSlider = ({ slides }) => {
           </div>
         );
       })}
-      <MainSearchBar/>
+      {showSearchBar? <MainSearchBar/> : <></>}
     </section>
   );
 };

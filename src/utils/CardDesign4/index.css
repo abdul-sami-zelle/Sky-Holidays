@@ -1,0 +1,95 @@
+.cardDesign4{
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    height: 100%;
+    /* padding-bottom: 15px; */
+    display: block;
+    border-radius: 8px;
+}
+
+.cardDesign4 > .featuredImage{
+    position: relative;
+    overflow: hidden;
+}
+.cardDesign4 > .featuredImage a {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.cardDesign4  > .featuredImage  .st_feature{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0 3px 3px 0;
+    z-index: 1;
+    background-color: var(--main-color);
+    font-family: 'Montserrat';
+}
+
+.cardDesign4 >  .contentItem{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.cardDesign4 .contentItem img{
+    height: 25px;
+    width: auto;
+}
+
+.cardDesign4 .contentItem h4{
+    line-height: 25px;
+    font-size: 18px;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    margin: 0 0 0 5px;
+}
+
+.cardDesign4 .contentItem  .section-footer .reviews {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+
+.cardDesign4 .cardDesign4 .section-footer .price-wrapper {
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--grey-color, #5E6D77);
+    font-family: 'Montserrat';
+}
+.cardDesign4 .section-footer .price-wrapper img {
+margin-right: 5px;
+}
+.cardDesign4 .price-wrapper span {
+    margin-left: 4px;
+}
+
+.cardDesign4 .reviews span {
+    margin-left: 4px;
+}
+
+
+.cardDesign4 .featuredImage img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out; /* Smooth transition for both transform and size */
+}
+
+.cardDesign4 .featuredImage img:hover {
+    transform: scale(1.1); /* Scales the image by 10% */
+}
